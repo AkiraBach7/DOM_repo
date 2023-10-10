@@ -56,10 +56,16 @@ header .shopping span{
 .list .item .price{
     margin: 10px;
 }
-.list .item .addToCart button{
+.list .item  button{
     background-color: #2C3A47;
     color: #fff;
-    width: 100%;
+    width: 100% auto;
+    padding: 10px;
+}
+.list .item button :hover{
+    background-color: #e70c55;
+    color: #fff;
+    width: 100% auto;
     padding: 10px;
 }
 
@@ -79,7 +85,7 @@ header .shopping span{
    transform: translateX(-200px);
 }
 .card h1{
-    color: #E8BC0E;
+    color: rgba(0, 37, 201, 0.8);
     font-weight: 100;
     margin: 0;
     padding: 0 20px;

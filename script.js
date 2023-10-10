@@ -54,8 +54,8 @@ function initApp(){
             <img src="image/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
-            <button onclick="like(${key})"><img src="image/heart-regular.svg"></button>
-            <button onclick="addToCard(${key})">Add To Card</button>`;
+            <button onclick="addToCard(${key})" class= "like"><img src="image/heart-regular.svg"></button>
+            <button onclick="addToCard(${key})" class= "addToCard">Add To Card</button>`;
         list.appendChild(newDiv);
     })
 }
